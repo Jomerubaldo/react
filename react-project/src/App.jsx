@@ -1,33 +1,12 @@
-function App() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(event.target.elements.fname.value);
-    console.log(event.target.elements.lname.value);
-  };
+import Input from './components/Input';
 
+function App() {
   return (
+    //Here is component u can paste this your component then edit it using props tobe dynamic//
     <>
-      <form className="w-25 p-5" onSubmit={handleSubmit}>
-        <div>
-          <input
-            type="text"
-            name="fname"
-            placeholder="enter firstname"
-            className=""
-          />
-        </div>
-        <div>
-          <input
-            type="text"
-            name="lname"
-            placeholder="enter lastname"
-            className=""
-          />
-        </div>
-        <button className="bg-indigo-500 px-10 py-2" type="submit">
-          Submit
-        </button>
-      </form>
+      <Input name="Button1" color="bg-green-500 px-10 py-2 text-red-500" />
+      <Input name="Button2" color="bg-red-500 px-10 py-2 text-blue-500" />
+      <Input name="Button2" color="bg-indigo-500 px-10 py-2 text-green-500" />
     </>
   );
 }
