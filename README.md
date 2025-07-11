@@ -1,9 +1,7 @@
-# 🚀 My Journey into React
+# Simple Form Login using React
 
-## Welcome to my React learning journey! 🌱
+## Check if the user is login before then if true the function show Welcome Back, with some function getting user input element value then display full name then if the user is new user show Welcome. with the same process function
 
-### This repository is a collection of everything I’ve learned as I dive deep into the world of component-based development, hooks, JSX, and modern front-end architecture.
+## And apply little bit tailwindcss for designing UI
 
-### I'm starting from the basics and building up — one project, one concept, and one bug at a time.
-
-## 📚 Learning by doing, failing, and doing it better.
+### This is my reference code i planning to improve this soon
