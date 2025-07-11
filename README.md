@@ -4,4 +4,6 @@
 
 ## And apply little bit tailwindcss for designing UI
 
+## And also i apply reusable components
+
 ### This is my reference code i planning to improve this soon
